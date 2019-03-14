@@ -19,7 +19,7 @@ namespace DefaultNamespace
         {
             if (toggle)
             {
-                var columnScript = column.GetComponent<ColumnMovement>();
+                var columnScript = column.GetComponent<LiftMovement>();
                 columnScript.move = true;
                 Toggle();
                 toggle = !toggle;
