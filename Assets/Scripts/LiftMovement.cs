@@ -12,6 +12,7 @@ public class LiftMovement : MonoBehaviour
 	[SerializeField] private float direction = -1f;
 	[SerializeField] private GameObject enableObject;
 	[SerializeField] private GameObject disableObject;
+	[SerializeField] private BoxCollider2D enableCollider2D;
 	private Rigidbody2D _rigidbody2D;
 
 	private void Start()
@@ -38,7 +39,7 @@ public class LiftMovement : MonoBehaviour
 			if(disableObject != null)
 				disableObject.SetActive(false);
 
-			gameObject.GetComponent<BoxCollider2D>().enabled = true;
+			enableCollider2D.enabled = true;
 		}
 	}
 

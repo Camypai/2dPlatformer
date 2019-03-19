@@ -51,12 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Attack.cs" />
+     <Compile Include="Assets\Scripts\AggroTrigger.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\CharacterMovement.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Helpers\TransformExtension.cs" />
      <Compile Include="Assets\Scripts\LiftMovement.cs" />
+     <Compile Include="Assets\Scripts\LookTrigger.cs" />
      <Compile Include="Assets\Scripts\ToggleCrank.cs" />
+     <Compile Include="Assets\Scripts\Weapon.cs" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>D:/Programs/2017.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>
